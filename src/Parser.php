@@ -30,7 +30,7 @@ class Parser
             return mb_substr($requirement, 0, -2);
         }
 
-        return $matches[2];
+        return $matches[2] ?: null;
     }
 
     private function removePartAfterLastDot(string $version): string

@@ -22,7 +22,7 @@ class ParserTest extends TestCase
      */
     public function it_parses_a_version(string $input, ?string $expected): void
     {
-        $this->assertEquals($expected, $this->sut->parse($input));
+        $this->assertSame($expected, $this->sut->parse($input));
     }
 
     public static function data(): array
