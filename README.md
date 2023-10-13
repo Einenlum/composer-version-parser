@@ -25,6 +25,7 @@ Examples:
 | `v3.4.9` | `3.4.9` |
 | `v3.*`   | `3`     |
 | `v3.4.*` | `3.4`   |
+| `*`      | `null`  |
 
 More complex cases are not handled for now.
 
