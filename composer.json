@@ -1,0 +1,25 @@
+{
+    "name": "einenlum/composer-version-parser",
+    "description": "A library to extract the potential higher version of a package from Composer requirements",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Einenlum\\ComposerVersionParser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Einenlum\\Tests\\ComposerVersionParser\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yann Rabiller",
+            "email": "contact@einenlum.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
+}
