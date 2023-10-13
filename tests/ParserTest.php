@@ -47,6 +47,7 @@ class ParserTest extends TestCase
             'v3.4.9' => ['v3.4.9', '3.4.9'],
             'v3.*' => ['v3.*', '3'],
             'v3.4.*' => ['v3.4.*', '3.4'],
+            '*' => ['*', null],
 
             // Not handled for now
             '>1.0.*' => ['>1.0.*', null],
